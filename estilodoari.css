@@ -30,18 +30,59 @@ header {
 }
 
 header img{
-    top: -3845;
-    left: 95p;
+    padding: 0.3rem;
 }
 
-main section.estrela{
-    top:-3772.39px;
-    left:250.54px;
+header nav{
+    display: flex;
+    align-items: center;
+}
 
+header nav a{
+    margin:0 1rem;
+    text-decoration: none;
+    color: var(--third)
+}
+
+header nav a:hover{
+    font-weight: bold;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform: translate(0);
+
+    }
+    50%{
+        transform: translate(-50px);
+    }
+}
+
+
+footer{
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+
+footer img{
+    margin: 0 0.5rem;
 
 }
 
-main section.kirby{
-    top:-3825.65;
-    left:651.61;
+main {
+    height: calc(100vh - 8.5rem);
 }
+
+main.index section{
+    display: flex;
+}
+
