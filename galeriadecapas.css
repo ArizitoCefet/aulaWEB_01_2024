@@ -48,23 +48,6 @@ header nav a:hover{
     font-weight: bold;
 }
 
-main img{
-    display: block;
-    margin: auto;
-    animation: float 2s ease-in-out infinite;
-}
-
-@keyframes float{
-    0%,100%{
-        transform: translate(0);
-
-    }
-    50%{
-        transform: translate(-50px);
-    }
-}
-
-
 footer{
     height: 3.5rem;
     display: flex;
@@ -80,6 +63,8 @@ footer img{
 
 main {
     height: calc(100vh - 8.5rem);
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 main.index section{
@@ -91,11 +76,38 @@ main b{
     text-align: center;
     color: white;
     position: absolute;
-    bottom: 10px; /* Ajuste conforme necessário */
+    bottom: 10px; 
     left: 50%;
     transform: translateX(-50%);
 }
 
 body{
     cursor: url('imagem/Mario\ Star.cur'), auto;
+}
+
+.container {
+    display: block;
+    margin: auto;
+}
+
+.container img {
+    display: inline-block;
+    margin: 10px; /* Espaço entre as imagens */
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgz{
+    width: 18.75rem;
+    height: 13.01125rem;
+}
+
+.igmzk{
+    width: 14.125remrem;
+    height: 16.6875rem;
 }
