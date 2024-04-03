@@ -1,0 +1,50 @@
+body {
+    background-color: #6C6A6B;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Inter';
+}
+
+:root{
+    --primary: #6C6A6B;
+    --secondary: #C8C6C7;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: var(--secondary);
+    border-bottom-width: 0.5rem;
+    border-bottom-style: solid;
+    height: 5rem;
+
+
+
+}
+
+header img{
+    padding: 0.3rem;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    margin:0 1rem;
+    text-decoration: none;
+    color: var(--third)
+}
+
+main.mario{
+    width: 7.812rem;
+    height: 7.8125rem;
+}

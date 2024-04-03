@@ -1,0 +1,10 @@
+@media(max-width: 1010px) {
+    main.index {
+        grid-template-columns: auto auto ;
+    }
+
+   .imgz{
+        width: 45%;
+        height: 45%;
+    }
+}

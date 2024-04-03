@@ -99,3 +99,13 @@ main b{
 body{
     cursor: url('imagem/Mario\ Star.cur'), auto;
 }
+
+footer img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.nintendu{
+    width: 7.8125rem;
+    height: 7.8125rem;
+}
