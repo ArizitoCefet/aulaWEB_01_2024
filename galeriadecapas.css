@@ -112,3 +112,23 @@ section{
     height: 16.6875rem;
 }
 
+.capa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banjoo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.legenda{
+    text-align: center;
+    color:#ffffff;
+    font-size: 18px;
+}
+
