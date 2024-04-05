@@ -48,3 +48,38 @@ main.mario{
     width: 7.812rem;
     height: 7.8125rem;
 }
+
+main img{
+    display: block;
+    margin: auto;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+
+footer img{
+    margin: 0 0.5rem;
+
+}
+
+main {
+    height: calc(100vh - 8.5rem);
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+main.index section{
+    display: flex;
+}
