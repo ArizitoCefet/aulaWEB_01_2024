@@ -8,3 +8,38 @@
         height: 45%;
     }
 }
+
+
+@media screen and (max-width: 400px) {
+    header {
+        text-align: center;
+    }
+
+    nav  {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+
+footer {
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
