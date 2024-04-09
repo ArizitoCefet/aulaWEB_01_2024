@@ -28,7 +28,7 @@
     main {
         padding: 10px;
     }
-}
+
 
 
 footer {
@@ -44,4 +44,14 @@ img {
     height: auto;
 }
 
+.imgzk{
+    width: 7rem;
+}
 
+.logonitendo{
+    width: 100%;
+}
+
+
+
+}
