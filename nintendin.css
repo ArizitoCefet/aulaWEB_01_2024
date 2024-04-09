@@ -77,45 +77,26 @@ footer img{
 main {
     height: calc(100vh - 8.5rem);
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
 }
 
 main.index section{
     display: flex;
 }
 
-.classe{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 30rem 70rem;
-    width: 100rem;
+
+footer img{
+    width: 2rem;
+    height: 2rem;
 }
 
-.mario{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.nintendu{
+    width: 7.8125rem;
+    height: 2.3125em;
 }
 
-.nintendologo{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+body{
+    cursor: url('imagem/Mario\ Star.cur'), auto;
 }
 
-.Smallville {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Define a altura total da viewport */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.goku{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
 

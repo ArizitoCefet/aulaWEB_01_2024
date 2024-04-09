@@ -35,7 +35,7 @@ footer {
     text-align: center;
 }
 
-.img-container {
+section {
     text-align: center;
 }
 
@@ -43,3 +43,5 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
